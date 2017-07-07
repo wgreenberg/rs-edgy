@@ -1,0 +1,8 @@
+[package]
+name = "rs-cam"
+version = "0.1.0"
+authors = ["Will Greenberg <will@endlessm.com>"]
+
+[dependencies]
+rscam = "0.5.3"
+gstreamer = "0.7.2"

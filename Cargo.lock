@@ -1,0 +1,30 @@
+[root]
+name = "rs-cam"
+version = "0.1.0"
+dependencies = [
+ "gstreamer 0.7.2 (registry+https://github.com/rust-lang/crates.io-index)",
+ "rscam 0.5.3 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "gstreamer"
+version = "0.7.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "libc"
+version = "0.2.24"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "rscam"
+version = "0.5.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "libc 0.2.24 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[metadata]
+"checksum gstreamer 0.7.2 (registry+https://github.com/rust-lang/crates.io-index)" = "dd408eaa75fe8850572df14cf8de77d9f8cfc234e7a927636eacf4d620155687"
+"checksum libc 0.2.24 (registry+https://github.com/rust-lang/crates.io-index)" = "38f5c2b18a287cf78b4097db62e20f43cace381dc76ae5c0a3073067f78b7ddc"
+"checksum rscam 0.5.3 (registry+https://github.com/rust-lang/crates.io-index)" = "4a012f3562ca4c7e479c8feefc1a48f5880a1e6c48ae78d6d10ca31df0e1db5e"
